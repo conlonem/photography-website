@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(19, 19, 19);
+    font-family: 'Allerta Stencil';
+    font-size: 22px;
+    color: grey; 
+}
+
+h1 {
+    color: rgb(226, 226, 226);
+}
+
+h2 {
+    color: rgb(226, 226, 226);
+    font-size: medium;
+    background-color: dimgrey;
+    padding: 0% 30% 0% 30%;
+}
+
+label {
+    font-size: large;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.flex-container > div {
+    margin: 10px;
+    height: 230px;
+    width: 430px;
+    transition: all 1s;
+}
+
+.flex-container > div:hover {
+    transform: scale(1.1);
+}
+
+img {
+    height: 230px;
+    width: 430px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 75px 75px;
+    justify-content: center;
+}
+
+.grid-item1 {
+    padding: 20px 5px 5px 5px;
+}
+
+.grid-item2 {
+    padding: 0px 5px 5px 5px;
+}
+
+#contact, #about {
+    margin: 0px;
+    padding-left: 30px;
+}
+
+#contact-col {
+    padding: 10px 0px 0px 15px;
+}
+
+#about-title {
+    padding-top: 10px;
+}
